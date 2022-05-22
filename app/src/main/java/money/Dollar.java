@@ -3,9 +3,7 @@
  */
 package money;
 
-public class Dollar {
-    private Integer amount;
-
+public class Dollar extends Money {
     public Dollar(int amount) {
         this.amount = amount;
     }

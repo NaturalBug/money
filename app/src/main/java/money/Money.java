@@ -1,6 +1,6 @@
 package money;
 
-abstract class Money {
+public abstract class Money {
     protected int amount;
 
     public boolean equals(Object object) {
